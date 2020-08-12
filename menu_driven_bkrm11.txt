@@ -1,3 +1,10 @@
+def modulus():
+	if(a>b):
+		mod=a%b
+	if(b>a):
+		mod=b%a
+	print("Mod of ",a," and ",b," = ",mod)
+
 a=int(input("Enter first number"))
 b=int(input("Enter second number"))
 c=int(input('''Enter your choice
