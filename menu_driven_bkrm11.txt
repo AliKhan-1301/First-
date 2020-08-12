@@ -1,9 +1,37 @@
-def modulus():
-	if(a>b):
+def add():
+	
+	sum=a+b
+	
+	print("Sum of ",a," and ",b," = ",sum)
+
+def substract():
+	if(a>=b):
+		sub=a-b
+		print("Substract ",a," from ",b," = ",sub)
+	elif(b>a):
+		sub=b-a
+		print("Substract ",b," from ",a," = ",sub)
+
+def multiply():
+	mul=a*b
+	print("Multiply ",a," and ",b," = ",mul)
+
+def divide():
+	if(a>=b):
+		div=a-b
+		print("Divide ",a," by ",b," = ",div)
+	elif(b>a):
+		div=b-a
+		print("Divide ",b," by ",a," = ",div)
+
+div modulus():
+	if(a>=b):
 		mod=a%b
-	if(b>a):
-		mod=b%a
-	print("Mod of ",a," and ",b," = ",mod)
+		print("Modulus ",a," by ",b," = ",mod)
+	elif(b>a):
+		mod=b-a
+		print("Modulus ",b," by ",a," = ",mod)
+
 
 a=int(input("Enter first number"))
 b=int(input("Enter second number"))
