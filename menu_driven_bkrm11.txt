@@ -4,6 +4,22 @@ def modulus():
 	if(b>a):
 		mod=b%a
 	print("Mod of ",a," and ",b," = ",mod)
+def divide():
+    c=a/b
+    print(c)
+###print(Division(,))
+
+
+
+
+
+
+
+
+
+
+
+
 
 a=int(input("Enter first number"))
 b=int(input("Enter second number"))
