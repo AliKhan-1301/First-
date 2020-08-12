@@ -1,58 +1,6 @@
-def modulus():
-	if(a>b):
-		mod=a%b
-	if(b>a):
-		mod=b%a
-	print("Mod of ",a," and ",b," = ",mod)
-
-def divide():
-    c=a/b
-    print(c)
-###print(Division(,))
-
-def multiply():
-	m=a*b
-	print(m)
-
-def sub():		
-	sub = (a - b);
-	print("the subtraction of given numbers is: ",sub)
-
-
-
-
-
-
-
-
-
-
-
-
-a=int(input("Enter first number"))
-b=int(input("Enter second number"))
-c=int(input('''Enter your choice
-		1. Add
-                2. Substract
-		3. Multiply
- 		4. Divide
-		5. Modulus'''))
-if(c==1):
-	add()
-if(c==2):
-	substract()
-if(c==3):
-	multiply()
-if(c==4):
-	divide()
-if(c==5):
-	modulus()
-
-
-
-
-
-
+def add():
+	sum=a+b
+	print("Sum of ",a," and ",b," = ",sum)
 a=int(input("Enter first number"))
 b=int(input("Enter second number"))
 c=int(input('''Enter your choice
