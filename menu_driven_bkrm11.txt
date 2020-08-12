@@ -1,5 +1,7 @@
-def add():	
+def add():
+	
 	sum=a+b
+	
 	print("Sum of ",a," and ",b," = ",sum)
 
 def substract():
@@ -27,14 +29,15 @@ div modulus():
 		mod=a%b
 		print("Modulus ",a," by ",b," = ",mod)
 	elif(b>a):
-		mod=b-a
+		mod=b%a
 		print("Modulus ",b," by ",a," = ",mod)
-    
+
+
 a=int(input("Enter first number"))
 b=int(input("Enter second number"))
 c=int(input('''Enter your choice
 		1. Add
-    2. Substract
+                2. Substract
 		3. Multiply
  		4. Divide
 		5. Modulus'''))
